@@ -1,0 +1,16 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "Generate a clean, ATS-friendly .docx resume from a JSON config.",
+  "main": "src/build.js",
+  "bin": {
+    "resume-builder": "src/build.js"
+  },
+  "scripts": {
+    "build": "node src/build.js example/resume.config.json example/output.docx"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
