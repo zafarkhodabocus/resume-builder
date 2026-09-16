@@ -1,0 +1,42 @@
+{
+  "name": "Jane Doe",
+  "title": "Product Marketing Manager",
+  "tagline": "Based in Austin, TX — Open to remote roles",
+  "contact": ["jane.doe@example.com", "linkedin.com/in/janedoe", "janedoe.com"],
+  "theme": { "accent": "1F3864", "muted": "444444", "font": "Calibri" },
+  "sections": [
+    {
+      "heading": "PROFESSIONAL SUMMARY",
+      "type": "bullets",
+      "items": [
+        "**5 years in B2B SaaS marketing** — go-to-market strategy, positioning, and cross-functional launches.",
+        "**Data-driven** — comfortable owning pipeline metrics and campaign attribution end to end.",
+        "**Tools** — HubSpot, Salesforce, Figma, SQL basics."
+      ]
+    },
+    {
+      "heading": "WORK EXPERIENCE",
+      "type": "experience",
+      "jobs": [
+        {
+          "title": "Senior Product Marketing Manager | Acme Software",
+          "dates": "Jun 2022 – Present",
+          "context": "B2B SaaS platform for mid-market logistics companies.",
+          "bullets": [
+            "Led go-to-market for 4 major product launches, exceeding pipeline targets each time.",
+            "Built and ran the competitive intelligence program used by the entire sales org.",
+            "Rewrote core website messaging, lifting trial signups by double digits."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "EDUCATION",
+      "type": "text",
+      "lines": [
+        { "text": "B.A. Marketing", "bold": true },
+        { "text": "University of Texas at Austin — Graduated 2019" }
+      ]
+    }
+  ]
+}
