@@ -1,0 +1,4 @@
+node_modules/
+*.docx
+!example/*.docx
+.DS_Store
